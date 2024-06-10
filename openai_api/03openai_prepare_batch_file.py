@@ -45,7 +45,7 @@ def list_all_files(root):
     return all_files
 
 
-dataset_root = '../dataset'
+dataset_root = '../sample_images/blur_dataset_scaled'
 list_all_image_path = list_all_files(dataset_root)
 
 # dump json into jsonl file
